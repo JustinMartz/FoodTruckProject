@@ -7,9 +7,6 @@ Week 2 homework by Justin Martz
 
 Users enter data for up to five food trucks. They then enter a menu that lets them: list all existing food trucks, see the average rating of all food trucks, display the highest-rated food truck(s), or quit the program.
 
-![](./food-truck-recording.webm)
-
-
 
 ## Technologies Used
 
