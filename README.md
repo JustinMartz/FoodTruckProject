@@ -18,7 +18,7 @@ Eclipse
 
 Throughout this project I thought that methods should have their own local variables, but couldn't reconcile the compiler after trying to add access modifiers like public and private and whatnot. So I made all variables global. After being mostly done with this project, I received clarification in a TA session that methods <strong>CANNOT</strong> have access modifiers. I left most of the variables as globals as it doesn't change the functionality, but now I am 100% onboard with the difference between local variables not having/needing access modifiers and global variables/fields having them. Thank you to Eric, John, and Will for clearing that up.
 
-I ran into a bug where my array of food trucks was being filled with the first food truck I entered. My loop wasn't breaking after I plopped a food truck in the array's spot. All it need was a little break; statement!
+I ran into a bug where my array of food trucks was being filled with the first food truck I entered. My loop wasn't breaking after I plopped a food truck in the array's spot. All it need was a little <code>break;</code> statement!
 
 ```java
 for (int index = 0; index < listOfFoodTrucks.length; index++) {
